@@ -24,6 +24,7 @@ public class UserController {
         if (exists) {
             return "Already by exists";
         }
+
         User user = new User();
         user.setFullname(userDto.getFullname());
         user.setRoles(userDto.getRoles());
